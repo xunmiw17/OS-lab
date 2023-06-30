@@ -1,0 +1,12 @@
+Q1.
+dirlookup looks for a directory entry in a directory by looping through all the struct dirent stored in the directory inode and finding a directory entry with the matching name. After it finds a match, it returns the in-memory inode representing that directory entry.
+
+Q2:
+Deleting a file includes three steps: 1) put a placeholder directory entry (name = NULL) in the corresponding spot, 2) Deallocate all the data in the file's extent using bfree, 3) put a placeholder dinode (type = -1) in the inode file. To make it crash-safe, these three steps should be placed inside one transaction. Besides, instead of directly writing the placeholder directory entry and dinode in their actual locations, we need to write it in the log region first, which can be accomplished by replacing the bwrite with our log_write function in writei. Lastly, the bwrite function in bfree should also be replaced by log_write, otherwise the bitmap can be in an inconsistent state.
+
+Q3:
+Frank Wu: 70h
+Judy Tian: 70h
+
+Q4:
+The lab lets me gain a more detailed picture of file system. We wish we knew journaling earlier.

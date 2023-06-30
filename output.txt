@@ -1,0 +1,476 @@
+qemu-system-x86_64  -m 16M -serial mon:stdio -smp cpus=1 -drive file=out/fs.img,index=1,media=disk,format=raw -drive file=out/xk.img,index=0,media=disk,format=raw -nographic
+c[?7l[2J[0mSeaBIOS (version rel-1.13.0-48-gd9c812dda519-prebuilt.qemu.org)
+
+
+iPXE (http://ipxe.org) 00:03.0 CA00 PCI2.10 PnP PMM+00F8F290+00EEF290 CA00
+Press Ctrl-B to configure iPXE (PCI 00:03.0)...
+
+
+
+Booting from Hard Disk..xk...
+CPU: QEMU Virtual CPU version 2.5+
+  fpu de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2
+  sse3 cx16 hypervisor
+  syscall nx lm
+  lahf_lm svm
+E820: physical memory map [mem 0x9000-0x908f]
+  [mem 0x0-0x9fbff] available
+  [mem 0x9fc00-0x9ffff] reserved
+  [mem 0xf0000-0xfffff] reserved
+  [mem 0x100000-0xfdffff] available
+  [mem 0xfe0000-0xffffff] reserved
+  [mem 0xfffc0000-0xffffffff] reserved
+
+cpu0: starting xk
+
+free pages: 3738
+cpu0: starting
+sb: size 100000 nblocks 99943 bmap start 2 inodestart 57
+init: starting sh
+$ lab4test_c 1
+lab4test_c starting
+crashing after 1 bwrites
+File does not exist yet.
+c[?7l[2J[0mSeaBIOS (version rel-1.13.0-48-gd9c812dda519-prebuilt.qemu.org)
+
+
+iPXE (http://ipxe.org) 00:03.0 CA00 PCI2.10 PnP PMM+00F8F290+00EEF290 CA00
+Press Ctrl-B to configure iPXE (PCI 00:03.0)...
+
+
+
+Booting from Hard Disk...
+xk...
+CPU: QEMU Virtual CPU version 2.5+
+  fpu de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2
+  sse3 cx16 hypervisor
+  syscall nx lm
+  lahf_lm svm
+E820: physical memory map [mem 0x9000-0x908f]
+  [mem 0x0-0x9fbff] available
+  [mem 0x9fc00-0x9ffff] reserved
+  [mem 0xf0000-0xfffff] reserved
+  [mem 0x100000-0xfdffff] available
+  [mem 0xfe0000-0xffffff] reserved
+  [mem 0xfffc0000-0xffffffff] reserved
+
+cpu0: starting xk
+
+free pages: 3738
+cpu0: starting
+sb: size 100000 nblocks 99943 bmap start 2 inodestart 57
+init: starting sh
+$ lab4test_c 2
+lab4test_c starting
+crashing after 2 bwrites
+File does not exist yet.
+c[?7l[2J[0mSeaBIOS (version rel-1.13.0-48-gd9c812dda519-prebuilt.qemu.org)
+
+
+iPXE (http://ipxe.org) 00:03.0 CA00 PCI2.10 PnP PMM+00F8F290+00EEF290 CA00
+Press Ctrl-B to configure iPXE (PCI 00:03.0)...
+
+
+
+Booting from Hard Disk..xk...
+CPU: QEMU Virtual CPU version 2.5+
+  fpu de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2
+  sse3 cx16 hypervisor
+  syscall nx lm
+  lahf_lm svm
+E820: physical memory map [mem 0x9000-0x908f]
+  [mem 0x0-0x9fbff] available
+  [mem 0x9fc00-0x9ffff] reserved
+  [mem 0xf0000-0xfffff] reserved
+  [mem 0x100000-0xfdffff] available
+  [mem 0xfe0000-0xffffff] reserved
+  [mem 0xfffc0000-0xffffffff] reserved
+
+cpu0: starting xk
+
+free pages: 3738
+cpu0: starting
+sb: size 100000 nblocks 99943 bmap start 2 inodestart 57
+init: starting sh
+$ lab4test_c 3
+lab4test_c starting
+crashing after 3 bwrites
+File does not exist yet.
+c[?7l[2J[0mSeaBIOS (version rel-1.13.0-48-gd9c812dda519-prebuilt.qemu.org)
+
+
+iPXE (http://ipxe.org) 00:03.0 CA00 PCI2.10 PnP PMM+00F8F290+00EEF290 CA00
+Press Ctrl-B to configure iPXE (PCI 00:03.0)...
+
+
+
+Booting from Hard Disk...
+xk...
+CPU: QEMU Virtual CPU version 2.5+
+  fpu de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2
+  sse3 cx16 hypervisor
+  syscall nx lm
+  lahf_lm svm
+E820: physical memory map [mem 0x9000-0x908f]
+  [mem 0x0-0x9fbff] available
+  [mem 0x9fc00-0x9ffff] reserved
+  [mem 0xf0000-0xfffff] reserved
+  [mem 0x100000-0xfdffff] available
+  [mem 0xfe0000-0xffffff] reserved
+  [mem 0xfffc0000-0xffffffff] reserved
+
+cpu0: starting xk
+
+free pages: 3738
+cpu0: starting
+sb: size 100000 nblocks 99943 bmap start 2 inodestart 57
+init: starting sh
+$ lab4test_c 4
+lab4test_c starting
+crashing after 4 bwrites
+File does not exist yet.
+c[?7l[2J[0mSeaBIOS (version rel-1.13.0-48-gd9c812dda519-prebuilt.qemu.org)
+
+
+iPXE (http://ipxe.org) 00:03.0 CA00 PCI2.10 PnP PMM+00F8F290+00EEF290 CA00
+Press Ctrl-B to configure iPXE (PCI 00:03.0)...
+
+
+
+Booting from Hard Disk...
+xk...
+CPU: QEMU Virtual CPU version 2.5+
+  fpu de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2
+  sse3 cx16 hypervisor
+  syscall nx lm
+  lahf_lm svm
+E820: physical memory map [mem 0x9000-0x908f]
+  [mem 0x0-0x9fbff] available
+  [mem 0x9fc00-0x9ffff] reserved
+  [mem 0xf0000-0xfffff] reserved
+  [mem 0x100000-0xfdffff] available
+  [mem 0xfe0000-0xffffff] reserved
+  [mem 0xfffc0000-0xffffffff] reserved
+
+cpu0: starting xk
+
+free pages: 3738
+cpu0: starting
+sb: size 100000 nblocks 99943 bmap start 2 inodestart 57
+init: starting sh
+$ lab4test_c 5
+lab4test_c starting
+crashing after 5 bwrites
+File does not exist yet.
+c[?7l[2J[0mSeaBIOS (version rel-1.13.0-48-gd9c812dda519-prebuilt.qemu.org)
+
+
+iPXE (http://ipxe.org) 00:03.0 CA00 PCI2.10 PnP PMM+00F8F290+00EEF290 CA00
+Press Ctrl-B to configure iPXE (PCI 00:03.0)...
+
+
+
+Booting from Hard Disk...
+xk...
+CPU: QEMU Virtual CPU version 2.5+
+  fpu de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2
+  sse3 cx16 hypervisor
+  syscall nx lm
+  lahf_lm svm
+E820: physical memory map [mem 0x9000-0x908f]
+  [mem 0x0-0x9fbff] available
+  [mem 0x9fc00-0x9ffff] reserved
+  [mem 0xf0000-0xfffff] reserved
+  [mem 0x100000-0xfdffff] available
+  [mem 0xfe0000-0xffffff] reserved
+  [mem 0xfffc0000-0xffffffff] reserved
+
+cpu0: starting xk
+
+free pages: 3738
+cpu0: starting
+sb: size 100000 nblocks 99943 bmap start 2 inodestart 57
+init: starting sh
+$ lab4test_c 6
+lab4test_c starting
+crashing after 6 bwrites
+File does not exist yet.
+c[?7l[2J[0mSeaBIOS (version rel-1.13.0-48-gd9c812dda519-prebuilt.qemu.org)
+
+
+iPXE (http://ipxe.org) 00:03.0 CA00 PCI2.10 PnP PMM+00F8F290+00EEF290 CA00
+Press Ctrl-B to configure iPXE (PCI 00:03.0)...
+
+
+
+Booting from Hard Disk..xk...
+CPU: QEMU Virtual CPU version 2.5+
+  fpu de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2
+  sse3 cx16 hypervisor
+  syscall nx lm
+  lahf_lm svm
+E820: physical memory map [mem 0x9000-0x908f]
+  [mem 0x0-0x9fbff] available
+  [mem 0x9fc00-0x9ffff] reserved
+  [mem 0xf0000-0xfffff] reserved
+  [mem 0x100000-0xfdffff] available
+  [mem 0xfe0000-0xffffff] reserved
+  [mem 0xfffc0000-0xffffffff] reserved
+
+cpu0: starting xk
+
+free pages: 3738
+cpu0: starting
+sb: size 100000 nblocks 99943 bmap start 2 inodestart 57
+init: starting sh
+$ lab4test_c 7
+lab4test_c starting
+crashing after 7 bwrites
+File does not exist yet.
+c[?7l[2J[0mSeaBIOS (version rel-1.13.0-48-gd9c812dda519-prebuilt.qemu.org)
+
+
+iPXE (http://ipxe.org) 00:03.0 CA00 PCI2.10 PnP PMM+00F8F290+00EEF290 CA00
+Press Ctrl-B to configure iPXE (PCI 00:03.0)...
+
+
+
+Booting from Hard Disk...
+xk...
+CPU: QEMU Virtual CPU version 2.5+
+  fpu de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2
+  sse3 cx16 hypervisor
+  syscall nx lm
+  lahf_lm svm
+E820: physical memory map [mem 0x9000-0x908f]
+  [mem 0x0-0x9fbff] available
+  [mem 0x9fc00-0x9ffff] reserved
+  [mem 0xf0000-0xfffff] reserved
+  [mem 0x100000-0xfdffff] available
+  [mem 0xfe0000-0xffffff] reserved
+  [mem 0xfffc0000-0xffffffff] reserved
+
+cpu0: starting xk
+
+free pages: 3738
+cpu0: starting
+sb: size 100000 nblocks 99943 bmap start 2 inodestart 57
+init: starting sh
+$ lab4test_c 8
+lab4test_c starting
+crashing after 8 bwrites
+File does not exist yet.
+c[?7l[2J[0mSeaBIOS (version rel-1.13.0-48-gd9c812dda519-prebuilt.qemu.org)
+
+
+iPXE (http://ipxe.org) 00:03.0 CA00 PCI2.10 PnP PMM+00F8F290+00EEF290 CA00
+Press Ctrl-B to configure iPXE (PCI 00:03.0)...
+
+
+
+Booting from Hard Disk..xk...
+CPU: QEMU Virtual CPU version 2.5+
+  fpu de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2
+  sse3 cx16 hypervisor
+  syscall nx lm
+  lahf_lm svm
+E820: physical memory map [mem 0x9000-0x908f]
+  [mem 0x0-0x9fbff] available
+  [mem 0x9fc00-0x9ffff] reserved
+  [mem 0xf0000-0xfffff] reserved
+  [mem 0x100000-0xfdffff] available
+  [mem 0xfe0000-0xffffff] reserved
+  [mem 0xfffc0000-0xffffffff] reserved
+
+cpu0: starting xk
+
+free pages: 3738
+cpu0: starting
+sb: size 100000 nblocks 99943 bmap start 2 inodestart 57
+init: starting sh
+$ lab4test_c 9
+lab4test_c starting
+crashing after 9 bwrites
+File does not exist yet.
+c[?7l[2J[0mSeaBIOS (version rel-1.13.0-48-gd9c812dda519-prebuilt.qemu.org)
+
+
+iPXE (http://ipxe.org) 00:03.0 CA00 PCI2.10 PnP PMM+00F8F290+00EEF290 CA00
+Press Ctrl-B to configure iPXE (PCI 00:03.0)...
+
+
+
+Booting from Hard Disk...
+xk...
+CPU: QEMU Virtual CPU version 2.5+
+  fpu de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2
+  sse3 cx16 hypervisor
+  syscall nx lm
+  lahf_lm svm
+E820: physical memory map [mem 0x9000-0x908f]
+  [mem 0x0-0x9fbff] available
+  [mem 0x9fc00-0x9ffff] reserved
+  [mem 0xf0000-0xfffff] reserved
+  [mem 0x100000-0xfdffff] available
+  [mem 0xfe0000-0xffffff] reserved
+  [mem 0xfffc0000-0xffffffff] reserved
+
+cpu0: starting xk
+
+free pages: 3738
+cpu0: starting
+sb: size 100000 nblocks 99943 bmap start 2 inodestart 57
+init: starting sh
+$ lab4test_c 10
+lab4test_c starting
+crashing after 10 bwrites
+File does not exist yet.
+c[?7l[2J[0mSeaBIOS (version rel-1.13.0-48-gd9c812dda519-prebuilt.qemu.org)
+
+
+iPXE (http://ipxe.org) 00:03.0 CA00 PCI2.10 PnP PMM+00F8F290+00EEF290 CA00
+Press Ctrl-B to configure iPXE (PCI 00:03.0)...
+
+
+
+Booting from Hard Disk..xk...
+CPU: QEMU Virtual CPU version 2.5+
+  fpu de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2
+  sse3 cx16 hypervisor
+  syscall nx lm
+  lahf_lm svm
+E820: physical memory map [mem 0x9000-0x908f]
+  [mem 0x0-0x9fbff] available
+  [mem 0x9fc00-0x9ffff] reserved
+  [mem 0xf0000-0xfffff] reserved
+  [mem 0x100000-0xfdffff] available
+  [mem 0xfe0000-0xffffff] reserved
+  [mem 0xfffc0000-0xffffffff] reserved
+
+cpu0: starting xk
+
+free pages: 3738
+cpu0: starting
+sb: size 100000 nblocks 99943 bmap start 2 inodestart 57
+init: starting sh
+$ lab4test_c 11
+lab4test_c starting
+crashing after 11 bwrites
+File does exist before creation. Checking consistency.
+File has been created and system is good!
+lab4test_c passed!
+$ lab4test_c 12
+lab4test_c starting
+crashing after 12 bwrites
+File does exist before creation. Checking consistency.
+File has been created and system is good!
+lab4test_c passed!
+$ lab4test_c 13
+lab4test_c starting
+crashing after 13 bwrites
+File does exist before creation. Checking consistency.
+File has been created and system is good!
+lab4test_c passed!
+$ lab4test_c 14
+lab4test_c starting
+crashing after 14 bwrites
+File does exist before creation. Checking consistency.
+File has been created and system is good!
+lab4test_c passed!
+$ lab4test_c 15
+lab4test_c starting
+crashing after 15 bwrites
+File does exist before creation. Checking consistency.
+File has been created and system is good!
+lab4test_c passed!
+$ lab4test_c 16
+lab4test_c starting
+crashing after 16 bwrites
+File does exist before creation. Checking consistency.
+File has been created and system is good!
+lab4test_c passed!
+$ lab4test_c 17
+lab4test_c starting
+crashing after 17 bwrites
+File does exist before creation. Checking consistency.
+File has been created and system is good!
+lab4test_c passed!
+$ lab4test_c 18
+lab4test_c starting
+crashing after 18 bwrites
+File does exist before creation. Checking consistency.
+File has been created and system is good!
+lab4test_c passed!
+$ lab4test_c 19
+lab4test_c starting
+crashing after 19 bwrites
+File does exist before creation. Checking consistency.
+File has been created and system is good!
+lab4test_c passed!
+$ lab4test_c 20
+lab4test_c starting
+crashing after 20 bwrites
+File does exist before creation. Checking consistency.
+File has been created and system is good!
+lab4test_c passed!
+$ lab4test_c 21
+lab4test_c starting
+crashing after 21 bwrites
+File does exist before creation. Checking consistency.
+File has been created and system is good!
+lab4test_c passed!
+$ lab4test_c 22
+lab4test_c starting
+crashing after 22 bwrites
+File does exist before creation. Checking consistency.
+File has been created and system is good!
+lab4test_c passed!
+$ lab4test_c 23
+lab4test_c starting
+crashing after 23 bwrites
+File does exist before creation. Checking consistency.
+File has been created and system is good!
+lab4test_c passed!
+$ lab4test_c 24
+lab4test_c starting
+crashing after 24 bwrites
+File does exist before creation. Checking consistency.
+File has been created and system is good!
+lab4test_c passed!
+$ lab4test_c 25
+lab4test_c starting
+crashing after 25 bwrites
+File does exist before creation. Checking consistency.
+File has been created and system is good!
+lab4test_c passed!
+$ lab4test_c 26
+lab4test_c starting
+crashing after 26 bwrites
+File does exist before creation. Checking consistency.
+File has been created and system is good!
+lab4test_c passed!
+$ lab4test_c 27
+lab4test_c starting
+crashing after 27 bwrites
+File does exist before creation. Checking consistency.
+File has been created and system is good!
+lab4test_c passed!
+$ lab4test_c 28
+lab4test_c starting
+crashing after 28 bwrites
+File does exist before creation. Checking consistency.
+File has been created and system is good!
+lab4test_c passed!
+$ lab4test_c 29
+lab4test_c starting
+crashing after 29 bwrites
+File does exist before creation. Checking consistency.
+File has been created and system is good!
+lab4test_c passed!
+$ lab4test_c 30
+lab4test_c starting
+crashing after 30 bwrites
+File does exist before creation. Checking consistency.
+File has been created and system is good!
+lab4test_c passed!
+$

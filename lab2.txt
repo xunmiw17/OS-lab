@@ -1,0 +1,18 @@
+Q1.
+scheduler loops over process table choosing a process to run. sched enters scheduler. swtch switches to/from the scheduler process.
+scheduler calls swtch to switch to the chosen process to run next. sched calls swtch to switch from the running process to the scheduler.
+
+Q2:
+The system call fork returns twice, once in the parent, with the return value of the process
+ID (pid) of the child, and once in the child, with the return value of 0.
+It will find an empty process and set up the context on kernel stack with return value 0. And finally it will call a fork return that child's very first scheduling by scheduler() swtch and return to caller.
+
+Q3:
+The kill system call kills the process with the given pid by looping through the process table, setting the "killed" state to be 1 for the process having the given pid, and setting the state to be "runnable" if it is "sleeping". Both "kill" and "exit" terminate a process, but a process calls exit to terminate by itself, while it calls kill to terminate some other process. The call to kill won't let a process terminate immediately, but when the process itself traps into the kernel and discover it has been killed, it will call exit to terminate. 
+
+Q4:
+Group member 1: Frank Wu: 25h
+Group member 2: Judy Tian: 15h
+
+Q5:
+We like implementing these system calls so we get a deeper understanding of them. We dislike debugging in this lab, which takes much longer time than lab1. We wish we knew more about pipe and exec earlier.

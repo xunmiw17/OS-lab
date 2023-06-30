@@ -1,0 +1,40 @@
+Q1.
+a: line 22: cpuid_print();
+b: line23: e820_print();
+
+Q2:
+The memory address of main function for the kernel is 0xffffffff801037a9.
+GDB works with virtual address because this address number is too big for real physical address.
+
+Q3:
+They map into the same address space so that the kernel’s system call code can directly refer to user memory.
+Also, the kernel must allocate and free physical memory at run-time for page tables, process user memory, kernel stacks, and pipe buffers.
+The switch between user space and kernel space becomes more efficient.
+
+Q4.1:
+xk user malloc allocates physically fragmented memory area with specified size on the Heap.
+xk kernel malloc allocates physical contiguous memory at run-time for page tables, process user memory, kernel stacks, and pipe buffers, which allocates whole 4096-byte pages at a time.
+
+Q4.2:
+xk user printf prints to the given file descriptor.
+xk kernel printf prints to the console.
+
+Q5:
+trap (tf=0xffffffff80159f50) at kernel/trap.c:32
+32      void trap(struct trap_frame *tf) {
+
+Q6:
+176
+
+Q7:
+#0  sys_sleep () at kernel/sysproc.c:65
+#1  0xffffffff80105337 in syscall () at kernel/syscall.c:170
+#2  0xffffffff80105979 in trap (tf=0xffffffff80158f50) at kernel/trap.c:39
+#3  0xffffffff80105c21 in alltraps () at kernel/trapasm.S:20
+
+Q8:
+Group member 1: Frank Wu: 10h
+Group member 2: Judy Tian: 10h
+
+Q9:
+I like this lab because it helped me to review the knowledge from class and also be familiar to debug use gdb. However, it's time consuming. How to debug in gdb.

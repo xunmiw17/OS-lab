@@ -1,0 +1,26 @@
+Q1.
+malloc and free provide users with an abstraction of virtual memory without directly dealing with physical memory.
+
+malloc and free call sbkr to increase or decrease the heap size
+
+Q2:
+When running the command "ls | wc", a pipe will be created to allow inter-process communication and two file descriptors will be set up, one for reading and one for writing. Then, fork() will be called to create the child process "ls", which then closes its read file descriptor. Then, fork() will be called again to create the child process "wc", which then closes its write file descriptor. The result of "ls" will be written to the pipe through its write file descriptor, and that will be read by "wc" through its read file descriptor.
+
+Q3:
+The user-level execution resumes with the instruction that caused the page fault exception.
+
+Q4:
+The kernel can check the faulting virtual address is within 10 pages (or some other stack size limit) from the base of the stack to see if it is a normal stack operation.
+
+Q5:
+It is possible. Just like how we grow the user stack at run-time, we can reduce it by freeing all the physical pages that we want to deallocate through kfree().
+
+Q6:
+vspaceinvalidate() and vspaceinstall(). They update the page table and install it into the page table register on the given CPU and flushes the TLB.
+
+Q7:
+Judy Tian: 10h
+Frank Wu: 10h
+
+Q8:
+We like doing virtual and physical address translation. We don't think there's anything we wish we knew earlier.
